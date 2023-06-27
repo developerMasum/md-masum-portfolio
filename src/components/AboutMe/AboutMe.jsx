@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Profiler } from "react";
 import { BsAward } from "react-icons/bs";
 import { AiFillProject } from "react-icons/ai";
 import CountUp from "react-countup";
 import styled from "styled-components";
-import img from '../../Img/2021-09-04.jpg'
+import img from '../../Img/WhatsApp Image 2023-06-26 at 20.41.59.png'
 
 const Container = styled.div`
   width: 80%;
@@ -16,7 +16,31 @@ const Container = styled.div`
     padding: 2rem 0;
   }
 `;
+const Profile = styled.div`
+img {
+  width: 75rem;
+  filter: drop-shadow(0px 10px 10px #01be9570);
+  transition: transform 400ms ease-in-out;
 
+  @media (max-width: 790px) {
+    width: 20rem;
+  }
+
+  @media (max-width: 660px) {
+    width: 25rem;
+  }
+
+  @media (max-width: 640px) {
+    width: 100%;
+    max-width: 25rem;
+    margin-top: 2rem;
+  }
+}
+
+:hover img {
+  transform: translateY(-10px);
+}
+`;
 const About = () => {
   return (
     <Container id="about">
@@ -28,10 +52,12 @@ const About = () => {
           <h2 className="text-2xl green">About Me</h2>
         </div>
 
-        <div className="flex flex-col-reverse md:flex-row items-center">
-          <div className="w-full md:w-1/2 md:mr-16">
-            <img src='https://www.childcareland.com/uploads/2/5/6/0/25602007/aamb1a1_orig.jpg' alt="" />
+        <div className="flex flex-col-reverse justify-evenly md:flex-row items-center">
+         <Profile>
+         <div className="w-full md:w-1/2 md:mr-16">
+            <img src={img} alt="" />
           </div>
+         </Profile>
 
           <div className="w-full">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-8">
@@ -63,7 +89,7 @@ const About = () => {
               Love to learn new technology and try to improve myself.
             </div>
 
-            <button className="mt-4 md:mt-5 mx-auto md:mx-0 w-full md:w-auto">Let's Talk</button>
+            <button className="mt-4 md:mt-5 mx-auto md:mx-0 w-full md:w-auto"><a href="#footer">Let's Talk</a></button>
           </div>
         </div>
       </div>
