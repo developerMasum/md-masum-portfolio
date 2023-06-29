@@ -9,7 +9,7 @@ const Project = (props) => {
     <Container className="project">
       <img src={img} alt="project" />
       <div className="disc">
-        <h1>Description</h1>
+        <h1>Details</h1>
         <p className=" text-xs">
           {disc}
           <div className="flex gap-3 mt-2">
@@ -56,11 +56,14 @@ const Container = styled.div`
     bottom: -10rem;
     text-align: left;
     padding: 0.5rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+
+
+
 
     transition: all 400ms ease-in-out;
     h1 {
-      font-size: 1rem;
+      font-size: 0.7rem;
     }
 
     p {

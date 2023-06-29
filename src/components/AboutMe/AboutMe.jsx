@@ -1,9 +1,9 @@
-import React, { Profiler } from "react";
+
 import { BsAward } from "react-icons/bs";
 import { AiFillProject } from "react-icons/ai";
 import CountUp from "react-countup";
 import styled from "styled-components";
-import img from '../../Img/WhatsApp Image 2023-06-26 at 20.41.59.png'
+import img from '../../Img/1688047511681.png'
 
 const Container = styled.div`
   width: 80%;
@@ -82,7 +82,7 @@ const About = () => {
             </div>
 
             <div className="mt-4 md:mt-5 text-start md:text-left w-full md:w-4/5">
-              Hello!! My name is Masum. I want to gain confidence and fame using
+             hey, I'm Masum. I want to gain confidence and fame using
               my potential in this position and express my innovative creative
               skills for self and company growth. I am a hardworking and quick
               learner person. I believe hard work is the only way to success.

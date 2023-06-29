@@ -25,11 +25,11 @@ const ProfComponent = () => {
               <Typewriter
                 options={{
                   strings: [
+                    "MERN Stack Developer",
                     "Web Developer",
-                    "Tailwind Master",
                     "React Developer",
-                    "Full Stack Developer",
-                    "BootStrap Expert",
+                    "JavaScript Developer",
+                    "Tailwind Expert",
                   ],
                   autoStart: true,
                   loop: true,
