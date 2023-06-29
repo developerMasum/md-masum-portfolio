@@ -33,45 +33,45 @@ const Services = () => {
       <div className="grid grid-cols-5 md:grid-cols-10 lg:grid-cols-11 gap-4 item-center ">
         <div className="flex justify-center items-center h-16 cursor-pointer w-16  rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img} alt="" />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 1
+          <div className="absolute bottom-0 font-bold left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+           HTML-5
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img1} alt="" />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 2
+          CSS-3
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img12} alt="" />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-xs p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+          BootStrap CSS
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img4} alt="" />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-xs text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+         Tailwind CSS
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img5} alt="" />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          Java Script
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img2} alt="" />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 3
+           React
           </div>
         </div>
         
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img3} alt="" />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 4
+          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-xs p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+         Mongo Db
           </div>
         </div>
        
@@ -79,43 +79,43 @@ const Services = () => {
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img6} alt="" />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          Express Js
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img8} alt="" />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          Node Js
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img9} alt="" />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+         REST-API
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img10} alt="" />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-xs text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+          Github
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img11} alt="" />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          NPM
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img14} alt="" />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2  text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+        VS Code
           </div>
         </div>
         <div className="flex justify-center items-center h-16 cursor-pointer w-16 rounded-full bg-white p-2 shadow-xl overflow-hidden relative">
           <img className="h-full w-full object-cover" src={img13} alt="" />
-          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-            Image 5
+          <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-xs text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+           Leader ship
           </div>
         </div>
        
