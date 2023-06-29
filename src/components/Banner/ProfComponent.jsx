@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillMail,  } from "react-icons/ai";
+import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
 import img from '../../Img/WhatsApp Image 2023-06-26 at 20.41.59.png'
@@ -53,17 +52,17 @@ const ProfComponent = () => {
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="https://www.instagram.com/">
-                  <AiOutlineInstagram />
+                <a href="mailto:md.masum0058@gmail.com">
+                  <AiFillMail />
                 </a>
               </span>
               <span>
-                <a href="/">
-                  <GiEarthAmerica />
+                <a href="https://www.facebook.com/f.adnan.masum/">
+                  <FaFacebook />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/md-masum-b2a551280/">
                   <FaLinkedinIn />
                 </a>
               </span>
