@@ -37,9 +37,9 @@ let data = [
   {
     img: "https://i.ibb.co/5jSQPKf/Screenshot-2023-06-27-101848.png",
     disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-    // liveLink: "Coming sooooooon",
-    // clientGit: "Coming sooooooon",
-    // serverGit: "Coming sooooooon",
+    liveLink: "https://bentilzone-restuarent.web.app/",
+    clientGit: "https://github.com/developerMasum/Bentilzone-Client-side-",
+    serverGit: "https://github.com/developerMasum/Bentilzone-server-side",
   },
 ];
 
