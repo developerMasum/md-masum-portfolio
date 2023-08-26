@@ -19,6 +19,15 @@ let data = [
     clientGit: "https://github.com/developerMasum/Bentilzone-Client-side-",
     serverGit: "https://github.com/developerMasum/Bentilzone-server-side",
   },
+
+  {
+    img: "https://i.ibb.co/4Kk5L0g/project5.png",
+    disc: "This is a React Admin Dashboard app with theming, tables, charts, calendar, kanban, and more",
+    liveLink: "https://frankly-dashboard.vercel.app/",
+    clientGit: "https://github.com/developerMasum/Frankly-Dashboard",
+  
+  },
+
   {
     img: "https://i.ibb.co/pyWgYXJ/Screenshot-2023-06-27-100920.png",
     disc: " 'Turkey Chefs Association'  This website initially  shows different chefs in Turkey, after successfully logged in, user can show Chef details and their recipes and also their top recipe details. User can  mark as favorite item of all  chief’s recipes in their recipe details page . ",
