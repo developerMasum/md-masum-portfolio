@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
 import img from '../../Img/WhatsApp Image 2023-06-26 at 20.41.59.png'
-import cv from '../../Img/Masum-ResumeDev.pdf'
+import cv from '../../Img/Resume-Dev-Md Masum.pdf'
 
 const ProfComponent = () => {
   return (

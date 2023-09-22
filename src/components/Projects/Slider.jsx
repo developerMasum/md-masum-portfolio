@@ -6,6 +6,13 @@ import styled from "styled-components";
 
 let data = [
   {
+    img: "https://i.ibb.co/hBY6kt0/Screenshot-2023-09-16-225838.png",
+    disc: "Job Swift is a website that makes hiring simpler. Employers can post jobs, manage applicants, and track hires easily. Job seekers find and apply for jobs effortlessly on this user-friendly platform. admin:admin@gmail.com,pass: 123456As@",
+    liveLink: "https://job-swift-git-masum-developermasum.vercel.app",
+    clientGit: "https://github.com/developerMasum/Job-Swift/tree/main/client",
+    serverGit: "https://github.com/developerMasum/Job-Swift/tree/main/Server",
+  },
+  {
     img: "https://i.ibb.co/HKGFRZF/Screenshot-2023-06-27-095658.png",
     disc: "Flaire Dance School'(Full MERN stack)' After register a user can buy classes by stripe payment,user can show thir Payment history. Instructors can add classes. Admin can approve, delete and show details about users. admin:test@gmail.com,Pass: 123456A@",
     liveLink: "https://groove-and-go.web.app/",
